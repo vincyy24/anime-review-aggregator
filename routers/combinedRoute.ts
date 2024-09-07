@@ -1,5 +1,5 @@
 import express from "express";
-import { Anilist, Kitsu, type ResponseObject } from "../apiClient";
+import { Anilist, Kitsu, type ResponseObject } from "./apiClient";
 
 const router = express.Router();
 
