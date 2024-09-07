@@ -1,6 +1,6 @@
 import axios, { type AxiosResponse } from "axios";
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = process.env.BASE_URL || "http://localhost:3000";
 
 export const Anilist = {
 	search: axios.create({ baseURL: `${baseUrl}/anilist/search` }),
